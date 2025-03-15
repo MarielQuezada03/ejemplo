@@ -1,0 +1,35 @@
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: @color-primario;
+    color: @color-texto;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+
+    h2 {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 25px;
+        background: @color-secundario;
+        color: @color-texto;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+
+        &:hover {
+            background: darken(@color-secundario, 10%);
+        }
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
